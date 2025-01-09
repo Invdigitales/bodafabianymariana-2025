@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Amatic+SC:wght@400;700&family=Bad+Script&family=Bebas+Neue&family=Calligraffitti&family=Covered+By+Your+Grace&family=Dancing+Script&family=EB+Garamond&family=Great+Vibes&family=Handlee&family=Inconsolata&family=Julius+Sans+One&family=Limelight&family=Lobster+Two&family=Major+Mono+Display&family=PT+Sans+Narrow&family=PT+Serif&family=Passions+Conflict&family=Patrick+Hand&family=Playfair+Display&family=Pompiere&family=Rancho&family=Roboto+Condensed:wght@300&family=Sacramento&family=Satisfy&family=Sofia+Sans+Extra+Condensed:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Amatic+SC:wght@400;700&family=Bad+Script&family=Bebas+Neue&family=Covered+By+Your+Grace&family=EB+Garamond&family=Great+Vibes&family=Handlee&family=Inconsolata&family=Julius+Sans+One&family=Lobster+Two&family=Major+Mono+Display&family=PT+Sans+Narrow&family=PT+Serif&family=Passions+Conflict&family=Patrick+Hand&family=Playfair+Display&family=Pompiere&family=Rancho&family=Roboto+Condensed:wght@300&family=Sacramento&family=Satisfy&family=Sofia+Sans+Extra+Condensed:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bad+Script&family=Bebas+Neue&family=Covered+By+Your+Grace&family=EB+Garamond&family=Great+Vibes&family=Handlee&family=Inconsolata&family=Julius+Sans+One&family=Lobster+Two&family=Major+Mono+Display&family=PT+Sans+Narrow&family=PT+Serif&family=Passions+Conflict&family=Patrick+Hand&family=Playfair+Display&family=Pompiere&family=Rancho&family=Roboto+Condensed:wght@300&family=Sacramento&family=Satisfy&family=Sofia+Sans+Extra+Condensed:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Amatic+SC:wght@400;700&family=Bad+Script&family=Bebas+Neue&family=Covered+By+Your+Grace&family=EB+Garamond&family=Great+Vibes&family=Handlee&family=Inconsolata&family=Julius+Sans+One&family=Lobster+Two&family=Major+Mono+Display&family=PT+Sans+Narrow&family=PT+Serif&family=Passions+Conflict&family=Patrick+Hand&family=Playfair+Display&family=Pompiere&family=Rancho&family=Roboto+Condensed:wght@300&family=Sacramento&family=Satisfy&family=Sofia+Sans+Extra+Condensed:wght@100&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <title>Boda Fabian & Mariana</title>
+</head>
+
+<body>
+  
+  <div>
+    <img   src="./imagenes/portada.jpg" alt="" srcset="">
+  
+  
+    
+  <div class="preloader">
+    <img class="amor" src="./imagenes/dlf10_wXhJVPvTG1.gif" alt="">
+   </div>
+ 
+ 
+  
+ 
+ 
+ 
+ 
+   
+   <audio class="audio" src="./musica/" controls>
+   </audio>
+   
+  <button class="musica" id="boton"><span>❚❚</span></button>
+    
+
+
+
+
+
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonym-ous"></script>
+  
+  <script>
+    window.addEventListener('load', () => {
+        const body = document.querySelector('body');
+        body.classList.add('loaded');
+    });
+    </script>
+
+<script type="text/javascript">
+ 
+  var v = document.getElementsByTagName("audio")[0];
+   
+  var sound = false;
+   
+  var botonn = document.getElementById("boton");
+   
+  botonn.addEventListener("musica", function(){
+   
+  if (!sound) {
+   
+  v.play();
+   
+  this.innerHTML = "♬";
+   
+  sound = true;
+   
+  } else {
+   
+  v.pause();
+   
+  this.innerHTML = "▼";
+   
+  sound = false;
+   
+  }
+   
+  });
+   
+  </script>
+    
+
+
+
+
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonym-ous"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
