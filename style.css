@@ -1,13 +1,16 @@
 * body {
     padding: 0;
     box-sizing: border-box;
-    background-image: url(imagenes/FONDO2.jpg);
+    background-image: url(imagenes/FONDO.png);
     background-size: 100%;
   }
   
   /*PORTADA*/
   
- 
+  .audio{
+    width: 1%;
+    margin-left: -2%;
+  }
  
 
   
@@ -35,13 +38,10 @@
     cursor: pointer;
     margin-left: 78%;
     border-radius: 50%;
-    background-color: #aba17b;
+    background-color: #A6756F ;
     border: #aba17b;
   }
-  .audio{
-    width: 1%;
-    margin-left: -2%;
-  }
+ 
   span{
     color: #ffffff;
     font-family: 'Julius Sans One', sans-serif;
@@ -104,3 +104,114 @@
     box-shadow: 0px 3px 5px rgba(rgb(218, 208, 208), rgb(38, 39, 38), brgb(65, 65, 66) alpha);
   }
   
+  
+  .cuenta-regresiva {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 0.8em;
+    margin-top: 5%;
+    font-weight: bold;
+    margin-top: 5%;
+    
+}
+.cr-time > span {
+    font-size: 20px;
+    color:#7d5f4a;
+    font-weight: bold;
+    
+}
+.cr-desc {
+    color: #74898b;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+.cr-block {
+    background: #e3e3e347;
+    border-radius: 5px;
+    padding: 0.1em 0.5em;
+    background-size: 80%;
+}
+.mariposas{
+  width: 40%;
+  margin-left: 35%;
+  margin-top: -25%;
+}
+
+.info h4 {
+   margin-top: 20%;
+  text-align: center;
+  font-family: 'Dancing Script', cursive; 
+  font-size: 33px;
+  color: #3b3b3b;
+  
+ 
+}
+
+
+.copas{
+ width: 27%;
+ margin-left: 38%;
+ margin-top: 8%;
+}
+.linea{
+ color: #D6AA92;
+ width: 70%;
+margin-left: 15%;
+
+
+}
+
+
+.parrafo2 {
+text-align: center;
+color: #575757;
+font-size: 17px;
+font-family: 'Times New Roman', Times, serif;
+
+
+}
+.parrafo1 {
+text-align: center;
+color: #575757;
+font-size: 23px;
+font-family: 'Dancing Script', cursive; 
+
+
+}
+
+.info2{
+  margin-top: -15%;
+  text-align: center;
+  font-family: 'Dancing Script', cursive; 
+  font-size: 33px;
+  color: #3b3b3b;
+ 
+}
+.click1 {
+  padding: 1px 9px;
+  font-size: 18px;
+  font-weight: 1200;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color:#A6756F;
+  border-radius: 7px;
+  box-shadow: 1px 1px 30px -5px rgb(232, 248, 207);
+  cursor: pointer;
+  margin-left: 33%;
+  background-image: url(./imagenes/gif.gif);
+  background-size: 120%;
+  margin-top: 2%;
+}
+.percha{
+  width: 15%;
+  margin-left: 13%;
+  margin-top: 4%;
+ }
+ .floral{
+  width: 40%;
+  margin-top: 10%;
+  margin-left: 30%;
+ }
