@@ -166,22 +166,57 @@ margin-left: 15%;
 
 
 .parrafo2 {
+
+    text-align: center;
+    color: #575757;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+
+ }
+
+.parrafo1{
 text-align: center;
 color: #575757;
-font-size: 17px;
-font-family: 'Times New Roman', Times, serif;
-
-
-}
-.parrafo1 {
-text-align: center;
-color: #575757;
-font-size: 23px;
+font-size: 25px;
 font-family: 'Dancing Script', cursive; 
+}
+.parrafo3 {
 
+  text-align: center;
+  color: #575757;
+  font-size: 25px;
+  font-family: 'Dancing Script', cursive;
 
 }
 
+.parrafo4{
+
+  text-align: center;
+  color: #ffffff;
+  font-size: 23px;
+  font-family: 'Dancing Script', cursive;
+  background-color: #765742fc;
+margin-top: 10%;
+
+}
+.parrafo6{
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  color: #575757;
+  font-size: 19px;
+  font-weight: 400;
+  margin-top: 5%;
+  
+
+}
+.whatsap{
+  width: 27%;
+  margin-left: 17%;
+ }
+ .whatsapdos{
+  width: 27%;
+  margin-left: 17%;
+ }
 .info2{
   margin-top: -15%;
   text-align: center;
@@ -214,4 +249,9 @@ font-family: 'Dancing Script', cursive;
   width: 40%;
   margin-top: 10%;
   margin-left: 30%;
+ }
+ .floraldos{
+  width: 40%;
+  margin-top: -20%;
+  margin-left: 17%;
  }
